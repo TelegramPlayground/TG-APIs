@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>WalletState</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="style" href="../css/docs.dark.css" rel="stylesheet">
+    <script>
+    document.getElementById("style").href = "../css/docs."
+        + (localStorage.getItem("theme") || "light")
+        + ".css";
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Source+Code+Pro"
+          rel="stylesheet">
+</head>
+<body>
+<div id="main_div"><ul class="horizontal"><li><a href="../index.html">API</a></li><img src="../img/arrow.svg" alt="/" /><li><a href="index.html">Constructors</a></li><img src="../img/arrow.svg" alt="/" /><li><a href="wallet_state.html">WalletState</a></li></ul><h1>WalletState</h1><pre>---types---
+walletState#95c5346b flags:# backup_enabled:flags.0?<a href="../index.html#true">true</a> can_export_phrase:flags.1?<a href="../index.html#true">true</a> can_enable_backup:flags.2?<a href="../index.html#true">true</a> address:<a href="../index.html#string">string</a> public_key:<a href="../index.html#bytes">bytes</a> balance:<a href="../index.html#long">long</a> = <a href="../types/wallet_state.html">WalletState</a></pre><button onclick="cp('from telethon.tl.types import WalletState');">Copy import to the clipboard</button><h3>Belongs to</h3><table><tr><td><a href="../types/wallet_state.html">WalletState</a></td></tr></table><p>This type can be an instance of either:</p><table><tr><td><a href="wallet_state.html">WalletState</a></td><td><a href="wallet_state_empty.html">WalletStateEmpty</a></td></tr></table><h3>Members</h3><table><tr><td><b>address</b></td><td style="text-align:center"><a href="../index.html#string">string</a></td><td></td></tr><tr><td><b>public_key</b></td><td style="text-align:center"><a href="../index.html#bytes">bytes</a></td><td></td></tr><tr><td><b>balance</b></td><td style="text-align:center"><a href="../index.html#long">long</a></td><td></td></tr><tr><td><b>backup_enabled</b></td><td style="text-align:center"><a href="../index.html#true">flag</a></td><td>This argument defaults to <code>None</code> and can be omitted.</td></tr><tr><td><b>can_export_phrase</b></td><td style="text-align:center"><a href="../index.html#true">flag</a></td><td>This argument defaults to <code>None</code> and can be omitted.</td></tr><tr><td><b>can_enable_backup</b></td><td style="text-align:center"><a href="../index.html#true">flag</a></td><td>This argument defaults to <code>None</code> and can be omitted.</td></tr></table><textarea id="c" class="invisible"></textarea><script>function cp(t){var c=document.getElementById("c");c.value=t;c.select();try{document.execCommand("copy")}catch(e){}}</script></div><script>prependPath = "../";</script><script src="../js/search.js"></script></body></html>

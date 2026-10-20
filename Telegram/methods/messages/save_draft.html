@@ -36,7 +36,10 @@ messages.saveDraft#ad0fa15c flags:# no_webpage:flags.1?<a href="../../index.html
             quote_offset=42,
             monoforum_peer_id=<em>'username'</em>,
             todo_item_id=42,
-            poll_option=<em>b'arbitrary\x7f data \xfa here'</em>
+            poll_option=<em>b'arbitrary\x7f data \xfa here'</em>,
+            quote_rich=[types.TextPlain(
+                text=<em>'some string here'</em>
+            )]
         ),
         media=types.InputMediaUploadedPhoto(
             file=client.upload_file(<em>'/path/to/file.jpg'</em>),
